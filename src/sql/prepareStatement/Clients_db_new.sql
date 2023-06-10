@@ -1,0 +1,1 @@
+insert into clients (id, name) values (?, ?);
