@@ -67,9 +67,8 @@ public class ProjectWorkerPopulateService {
     public int getProjectId() {
         counter++;
         int result = 1;
-        if (counter<=10) result = counter;
-        else result = new Random().nextInt(10) + 1;
-        return result;
+        if (counter<=10) return counter;
+        else return new Random().nextInt(10) + 1;
     }
 
 
